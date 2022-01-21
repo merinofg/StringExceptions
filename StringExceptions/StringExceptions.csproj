@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Authors>Merino Fajardo</Authors>
+        <Copyright>MIT</Copyright>
+        <PackageProjectUrl>https://github.com/merinofg/StringExceptions</PackageProjectUrl>
+        <PackageId>StringExceptions</PackageId>
+        <Description>Simplifies the string checks for common cases as null,
+empty or whitespaces, throwing custom exceptions on
+those cases.</Description>
+        <PackageTags>strings exceptions null empty whitespaces</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    </PropertyGroup>
+
+</Project>
