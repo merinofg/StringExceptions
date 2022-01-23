@@ -1,7 +1,4 @@
 # StringExceptions
-
----
-
 Simplifies the string checks for common cases as **null**,
 **empty** or **whitespaces**, throwing custom exceptions on
 those cases.
