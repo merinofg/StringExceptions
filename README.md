@@ -13,7 +13,7 @@ and throw it corresponding exception.
 ## Installation
 Via [NuGet](https://www.nuget.org/packages/StringExceptions/)
 ```shell
-Install-Package StringExceptions -Version 1.0.0
+Install-Package StringExceptions -Version 1.0.1
 ```
 
 ## Usage

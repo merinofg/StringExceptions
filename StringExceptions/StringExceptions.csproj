@@ -5,7 +5,9 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <Authors>Merino Fajardo</Authors>
-        <Copyright>MIT</Copyright>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <PackageReleaseNotes>Include generated documentation files.</PackageReleaseNotes>
+        <PackageVersion>1.0.1</PackageVersion>
         <PackageProjectUrl>https://github.com/merinofg/StringExceptions</PackageProjectUrl>
         <PackageId>StringExceptions</PackageId>
         <Description>Simplifies the string checks for common cases as null,
@@ -13,7 +15,6 @@ empty or whitespaces, throwing custom exceptions on
 those cases.</Description>
         <PackageTags>strings exceptions null empty whitespaces</PackageTags>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageReleaseNotes>Initial release</PackageReleaseNotes>
     </PropertyGroup>
 
 </Project>
