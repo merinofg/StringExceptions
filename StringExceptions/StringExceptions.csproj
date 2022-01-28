@@ -6,8 +6,8 @@
         <Nullable>enable</Nullable>
         <Authors>Merino Fajardo</Authors>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
-        <PackageReleaseNotes>Include generated documentation files.</PackageReleaseNotes>
-        <PackageVersion>1.0.1</PackageVersion>
+        <PackageReleaseNotes>Rename method to something for meaningful for the developer.</PackageReleaseNotes>
+        <PackageVersion>1.1.0</PackageVersion>
         <PackageProjectUrl>https://github.com/merinofg/StringExceptions</PackageProjectUrl>
         <PackageId>StringExceptions</PackageId>
         <Description>Simplifies the string checks for common cases as null,

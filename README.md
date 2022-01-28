@@ -8,22 +8,27 @@ this will check for null, empty string and white spaces string
 and throw it corresponding exception.
 
 ## Installation
+
 Via [NuGet](https://www.nuget.org/packages/StringExceptions/)
+
 ```shell
-Install-Package StringExceptions -Version 1.0.1
+Install-Package StringExceptions -Version 1.1.0
 ```
 
 ## Usage
+
 ```c#
 using StringExceptions;
 
-StringExceptionsChecker.Throw(myString);
+StringExceptionsChecker.ThrowIfFails(myString);
 // or
-StringExceptionsChecker.Throw(myString, nameof(myString));
+StringExceptionsChecker.ThrowIfFails(myString, nameof(myString));
 ```
 
 ## Exceptions
+
 Three exception classes are declared:
+
 - **StringEmptyException**: Throws when string is empty.
-- **StringNullException**: Throws when string is null. (Inherited from *ArgumentNullException*).
+- **StringNullException**: Throws when string is null. (Inherited from _ArgumentNullException_).
 - **StringWhiteSpaceException**: Throws when string is ony formed by whitespaces.
