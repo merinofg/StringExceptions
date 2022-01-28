@@ -17,7 +17,7 @@
         /// <exception cref="StringNullException"><paramref name="s"/> is <c>null</c>.</exception>
         /// <exception cref="StringEmptyException"><paramref name="s"/> is an empty string.</exception>
         /// <exception cref="StringWhiteSpaceException"><paramref name="s"/> is only whitespaces.</exception>
-        public static void Throw(string? s, string? paramName = default)
+        public static void ThrowIfFails(string? s, string? paramName = default)
         {
             switch (s)
             {
